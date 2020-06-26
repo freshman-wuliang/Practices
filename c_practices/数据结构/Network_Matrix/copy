@@ -1,0 +1,17 @@
+printf("dist:");
+	for(int i=1;i<=*pdist_num;i++)
+	{
+		printf("%d ",dist[i-1]);
+	}
+	putchar('\n');
+	printf("path:\n");
+	for(int i=1;i<=*ppath_num;i++)
+	{
+		printf("[%c]: ",n.vexs[i-1]);
+		for(int j=1;j<=path_len[i-1];j++)
+		{
+			printf("%c ",path[i-1][j-1]);
+		}
+		putchar('\n');
+	}
+	
