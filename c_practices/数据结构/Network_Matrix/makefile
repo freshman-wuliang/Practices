@@ -14,4 +14,4 @@ Network.o : Network.c Network.h
 .PHONY : clean
 
 clean : 
-	del $(Object)
+	rm *.o
